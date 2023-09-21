@@ -1,5 +1,16 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 40px;
+  width: 100%;
+  height: 75px;
+  background-color: gray;
+  color: #fff;
+}
+
 .button-container {
-  height: 105px;
+  height: 85px;
   width: 99px;
   display: flex;
   justify-content: center;
@@ -13,7 +24,7 @@
   margin-left: 1px;
 }
 
-.calculator-container .line:nth-child(5) .button-container:first-child {
+.calculator-container .line:nth-child(6) .button-container:first-child {
   width: 198px;
 }
 
