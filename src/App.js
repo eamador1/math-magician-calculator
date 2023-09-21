@@ -1,10 +1,12 @@
 import './App.css';
 import Button from './components/Calculator';
+import Screen from './components/Display';
 
 function App() {
   return (
     <div className="App">
       <div className="calculator-container">
+        <Screen />
         <div className="line">
           <Button>AC</Button>
           <Button>+/-</Button>
