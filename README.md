@@ -28,7 +28,7 @@
 
 # 📖 [Math Magician Calculator] <a name="about-project"></a>
 
-**Math Magician Calculator** This is the first project of the Math Magicians application. I set up the environment and tools needed to develop a React application. In the following projects, I will develop the actual application.
+**Math Magician Calculator** This is the third project of the Math Magicians application. In this project, I add the logic needed to make the Calculator component I developed in the previous project actually work.
 
 ## 🛠 Built With <a name="built-with"></a>
 
