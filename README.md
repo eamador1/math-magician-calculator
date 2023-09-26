@@ -28,7 +28,7 @@
 
 # 📖 [Math Magician Calculator] <a name="about-project"></a>
 
-**Math Magician Calculator** This is the third project of the Math Magicians application. In this project, I add the logic needed to make the Calculator component I developed in the previous project actually work.
+**Math Magician Calculator** This is the fourth project of the Math Magicians application. In this project, I fetch data from an external API to display "quotes" alongside your calculator.
 
 ## 🛠 Built With <a name="built-with"></a>
 
