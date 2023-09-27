@@ -1,0 +1,15 @@
+h1 {
+  margin-left: 2.5%;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+div {
+  width: 96%;
+  margin-left: 2.5%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
