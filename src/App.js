@@ -1,14 +1,33 @@
+import React from 'react';
+import {
+  BrowserRouter, NavLink, Routes, Route,
+} from 'react-router-dom';
 import './App.css';
-import Calculator from './components/Calculator';
+import Home from './pages/Home';
+import CalculatorPage from './pages/CalculatorPage';
 import Quote from './components/FetchQuote';
 
-function App() {
+export default function App() {
+  const activeClassName = 'nav-active';
   return (
-    <div className="App">
-      <Calculator />
-      <Quote />
-    </div>
+    <BrowserRouter>
+
+      <header>
+        <h1>Math Magicians</h1>
+        <nav>
+          <NavLink to="home" className={({ isActive }) => (isActive ? activeClassName : undefined)}>Home </NavLink>
+          <li>| </li>
+          <NavLink to="calculator" className={({ isActive }) => (isActive ? activeClassName : undefined)}> Calculator</NavLink>
+          <li>| </li>
+          <NavLink to="quote" className={({ isActive }) => (isActive ? activeClassName : undefined)}>Quote</NavLink>
+        </nav>
+      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/quote" element={<Quote />} />
+      </Routes>
+    </BrowserRouter>
+
   );
 }
-
-export default App;

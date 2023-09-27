@@ -28,7 +28,7 @@
 
 # 📖 [Math Magician Calculator] <a name="about-project"></a>
 
-**Math Magician Calculator** This is the fourth project of the Math Magicians application. In this project, I fetch data from an external API to display "quotes" alongside your calculator.
+**Math Magician Calculator** This is the last project of the Math Magicians application. In this project, I create a full website for the Math magicians app, consisting of several pages and using the components I already created.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,6 +48,8 @@
 
 - **REACT.JS SET UP**
 - **LINTERS SET UP AND RUNNING**
+- **FULLY FUNCTIONAL CALCULATOR**
+- **FETCHING API**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

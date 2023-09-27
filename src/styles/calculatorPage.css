@@ -1,0 +1,11 @@
+h1 {
+  margin-left: 2.5%;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  margin-top: 10vh;
+}
