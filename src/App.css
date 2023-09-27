@@ -8,25 +8,16 @@
   align-items: center;
 }
 
-.calculator-container {
-  width: 400px;
-  height: 500px;
-  background-color: rgb(242, 239, 239);
-}
-
-.line {
-  margin: 1px;
+header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
 }
 
-.quotes {
-  margin-top: 10vh;
-  width: 80vw;
-  text-align: center;
-}
-
-.loading {
-  margin-top: 5vh;
+nav {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-right: 5%;
 }
