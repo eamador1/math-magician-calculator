@@ -11,7 +11,6 @@ export default function App() {
   const activeClassName = 'nav-active';
   return (
     <BrowserRouter>
-
       <header>
         <h1>Math Magicians</h1>
         <nav>
