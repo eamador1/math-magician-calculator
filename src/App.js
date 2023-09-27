@@ -16,7 +16,9 @@ export default function App() {
         <h1>Math Magicians</h1>
         <nav>
           <NavLink to="home" className={({ isActive }) => (isActive ? activeClassName : undefined)}>Home </NavLink>
-          <NavLink to="calculator" className={({ isActive }) => (isActive ? activeClassName : undefined)}>Calculator </NavLink>
+          <li>| </li>
+          <NavLink to="calculator" className={({ isActive }) => (isActive ? activeClassName : undefined)}> Calculator</NavLink>
+          <li>| </li>
           <NavLink to="quote" className={({ isActive }) => (isActive ? activeClassName : undefined)}>Quote</NavLink>
         </nav>
       </header>
