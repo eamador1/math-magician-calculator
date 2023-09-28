@@ -28,7 +28,7 @@
 
 # 📖 [Math Magician Calculator] <a name="about-project"></a>
 
-**Math Magician Calculator** This is the last project of the Math Magicians application. In this project, I create a full website for the Math magicians app, consisting of several pages and using the components I already created.
+**Math Magician Calculator** In this project, you will write unit tests for the Math Magicians app, using the Jest and React Testing Library libraries.
 
 ## 🛠 Built With <a name="built-with"></a>
 
