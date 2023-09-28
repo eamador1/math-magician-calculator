@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen Component renders input 1`] = `
+<div
+  class="input"
+>
+  1
+</div>
+`;
+
+exports[`Screen Component renders input 2`] = `
+<div
+  class="input"
+>
+  99.9
+</div>
+`;
