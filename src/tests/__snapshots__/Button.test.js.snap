@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders additional className if value is an operator 1`] = `
+<button
+  class="button-container operator"
+  type="button"
+>
+  +
+</button>
+`;
+
+exports[`renders without additional className if value is not an operator 1`] = `
+<button
+  class="button-container"
+  type="button"
+>
+  5
+</button>
+`;
