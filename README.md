@@ -103,7 +103,7 @@ npm run
 
 👤 **Erwin Amador**
 
-- GitHub: [@eamador1](https://github.com/eamador1)
+- GitHub: [@eamador1] (https://github.com/eamador1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
